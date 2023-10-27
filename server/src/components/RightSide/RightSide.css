@@ -1,0 +1,52 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.navIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navIcons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.navIcons>a>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.r-button {
+    height: 3rem;
+    width: 90%;
+    align-self: center;
+    font-size: 16px;
+}
+
+.style-icon {
+    background-color: rgb(58, 207, 218);
+}
+@media screen and (max-width: 1024px){
+    .RightSide {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .RightSide {
+        width: 100%;
+    }
+    .navIcons {
+        width: 85%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+}
+
+
+

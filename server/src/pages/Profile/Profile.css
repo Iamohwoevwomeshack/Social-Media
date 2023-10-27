@@ -1,0 +1,61 @@
+.Profile{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+}
+
+#profileCard2{
+    display: none;
+}
+
+#profileCard3{
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    .Profile{
+        grid-template-columns: 23% auto 23%;
+        gap: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 912px){
+    .Profile{
+        grid-template-columns: 25% 46% 25%;
+        gap: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .Profile{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #profileCard2{
+        display: revert;
+    }
+    #profileCard3{
+        display: revert;
+    }
+    #profileCard1{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    #profileCard2{
+        display: revert;
+    }
+    #profileCard3{
+        display: revert;
+    }
+    #profileCard1{
+        display: none;
+    }
+
+}
+

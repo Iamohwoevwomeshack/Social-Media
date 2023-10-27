@@ -1,0 +1,26 @@
+.navIcons-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5;
+    width: 90%;
+    display: none;
+}
+
+.navIcons-2>img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .navIcons-2>a>img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+@media screen and (max-width: 600px){
+    .navIcons-2{
+        display: revert;
+        display: flex;
+        justify-content: space-between;
+    }
+}
